@@ -6,10 +6,13 @@ A shared monorepo for tools, skills, and scripts across your team. Everything he
 
 ### Incubating — team-adopted, documented, tested
 
-| Tool | What it does |
-|------|-------------|
-| [**/journey-note**](incubating/skills/journey-note/) | Claude Code slash command that generates narrative session summaries capturing the intellectual arc of a working session |
-| [**/ship**](incubating/skills/ship/) | One-command commit, push, and PR workflow with automatic journey note linking |
+| Tool | What it does | Source |
+|------|-------------|--------|
+| [**superpowers**](incubating/superpowers-skills/) | Agentic skills framework — TDD, debugging, code review, subagents, worktrees, and more | [obra/superpowers](https://github.com/obra/superpowers) |
+| [**gstack**](incubating/gstack/) | 23-tool skill pack — CEO, Designer, Eng Manager, Release Manager, QA roles | [garrytan/gstack](https://github.com/garrytan/gstack) |
+| [**skill-creator**](incubating/skill-creator/) | Build new Claude Code skills from scratch, run evals, optimize triggering | [anthropics/skills](https://github.com/anthropics/skills) |
+| [**/journey-note**](incubating/skills/journey-note/) | Generates narrative session summaries capturing the intellectual arc of a working session | Original |
+| [**/ship**](incubating/skills/ship/) | One-command commit, push, and PR workflow with automatic journey note linking | Original |
 
 ### Sandbox — experimental, early-stage
 
@@ -52,3 +55,10 @@ Open a PR that moves the directory up a tier. See [CONTRIBUTING.md](CONTRIBUTING
 ### Retire a tool
 
 Open a PR to delete it. Note in the PR why and what replaces it (if anything).
+
+## Resources
+
+- [**The Complete Guide to Building Skills for Claude**](resources/complete-guide-to-building-skills-for-claude.pdf) — Anthropic's 32-page playbook covering skill fundamentals, planning, testing, distribution, and design patterns
+- [obra/superpowers](https://github.com/obra/superpowers) — upstream repo for the superpowers skills framework
+- [garrytan/gstack](https://github.com/garrytan/gstack) — upstream repo for gstack
+- [anthropics/skills](https://github.com/anthropics/skills) — Anthropic's official skills repo (skill-creator + 16 other skills)
